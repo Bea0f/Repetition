@@ -1,0 +1,56 @@
+.container1 {
+    border: 2px dotted black;
+    height: 500px;
+    width: 800px;
+    top: 10%;
+    left: 20%;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.container2 {
+    border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    top: 20px;
+    left: 200px;
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 3rem;
+}
+
+.sticky {
+    background-color: black;
+    position: sticky;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 300px;
+    left: 7px;
+}
+
+.absolute {
+    background-color: blue;
+    position: absolute;
+    top: -302px;
+    left: -202px;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    
+}
+  

@@ -1,0 +1,37 @@
+body header {
+  background-color: red;
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+body header .navigation {
+  background-color: aqua;
+}
+body .content {
+  margin: 10px;
+  padding: 10px;
+  background-color: greenyellow;
+  border: 2px dotted black;
+}
+body .content .content:nth-child(1), body .content .content:nth-child(2) {
+  background-color: lightgreen;
+}
+body .content section p:first-child {
+  background-color: plum;
+}
+body .content .mydiv {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+body .content .mydiv .circle {
+  background-color: red;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}/*# sourceMappingURL=style.css.map */

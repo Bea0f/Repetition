@@ -1,0 +1,106 @@
+
+h1{
+    background-color: pink;
+    transition: background-color 2s linear;
+}
+
+h1:hover {
+    background-color: red;
+}
+
+p{
+    background-color: pink;
+    color: lightblue;
+    transition: background-color 2s linear;
+    font-size: 2rem;
+}
+
+p:hover {
+    font-size: 3rem;
+    background-color: lightblue;
+    color: pink;
+}
+
+/* .circle {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: bounce  3s infinite;
+} */
+
+/* @keyframes bounce {
+    0% {transform: translate(0,0);}
+    25% {transform: translate(0,300px);}
+    50% {transform: translate(0,0);}
+    75% {transform: translate(0,300px);}
+    100% {transform: translate(0,0 );}
+} */
+
+/* .circle2 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation: smalls  1s infinite;
+} */
+
+/* @keyframes small {
+    from{ width: 100px; height: 100px;}
+    to {width: 200px; height: 200px;}
+    0% {transform: translate(100px,0);}
+    50% {transform: translate(100px,300px);}
+    100% {transform: translate(100px,0);}
+    
+}
+
+@keyframes smalls {
+    0% {
+        top:0px;
+        width: 8px;
+        height: 8px;
+    }
+    50% {
+        top:200px;
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        top:0px;
+        width: 8px;
+        height: 8px;
+    }
+} */
+
+.container{
+    margin: 100px 300px;
+}
+
+.heart {
+    position: relative;
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+.heart::before, .heart::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.heart::before{
+    left: -50px;
+}
+
+.heart::after{
+    top: -50px;
+}
+
+
